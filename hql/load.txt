@@ -1,0 +1,6 @@
+load data inpath 'hdfs://hadoop001:9000/movie_data_mining/ml-25m/genome-scores.csv' overwrite into table ml_25m_genome_scores;
+load data inpath 'hdfs://hadoop001:9000/movie_data_mining/ml-25m/genome-tags.csv' overwrite into table ml_25m_genome_tags;
+load data inpath 'hdfs://hadoop001:9000/movie_data_mining/ml-25m/links.csv' overwrite into table ml_25m_links;
+load data inpath 'hdfs://hadoop001:9000/movie_data_mining/ml-25m/movies.csv' overwrite into table ml_25m_movies;
+load data inpath 'hdfs://hadoop001:9000/movie_data_mining/ml-25m/ratings.csv' overwrite into table ml_25m_ratings;
+load data inpath 'hdfs://hadoop001:9000/movie_data_mining/ml-25m/tags.csv' overwrite into table ml_25m_tags;

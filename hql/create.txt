@@ -1,0 +1,100 @@
+CREATE DATABASE ml_25m_database;
+USE ml_25m_database;
+
+
+
+CREATE TABLE `ml_25m_genome_scores`(
+  `movie_id` int not null, 
+  `tag_id` int not null, 
+  `relevance` double not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");
+
+
+
+CREATE TABLE `ml_25m_genome_tags`(
+  `tag_id` int not null,
+  `tag` string not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");
+
+
+
+CREATE TABLE `ml_25m_links`(
+  `movie_id` int not null, 
+  `imdb_id` int not null, 
+  `tmdb_id` int not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");
+
+
+
+CREATE TABLE `ml_25m_movies`(
+  `movie_id` int not null, 
+  `title` string not null, 
+  `genres` string not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");
+
+
+
+CREATE TABLE `ml_25m_movies_genres`(
+  `movie_id` int not null, 
+  `genre` string not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");
+
+
+
+CREATE TABLE `ml_25m_ratings`(
+  `user_id` int not null, 
+  `movie_id` int not null, 
+  `rating` float not null, 
+  `rating_timestamp` int not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");
+
+
+
+CREATE TABLE `ml_25m_tags`(
+  `user_id` int not null, 
+  `movie_id` int not null, 
+  `tag` string not null, 
+  `tag_timestamp` int not null)
+row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+with serdeproperties (
+    'separatorChar' = ',',   
+    'quoteChar' = '\"',
+    'escapeChar' = '\\'
+) 
+stored as textfile tblproperties("skip.header.line.count"="1");

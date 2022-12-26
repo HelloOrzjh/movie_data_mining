@@ -1,0 +1,26 @@
+mahout splitDataset
+-i /movie_data_mining/recommend/input/ratings-modified.csv
+-o /movie_data_mining/recommend/dataset
+--trainingPercentage 0.9
+--probePercentage 0.1
+
+mahout parallelALS
+-i /movie_data_mining/recommend/dataset/trainingSet/
+-o /movie_data_mining/recommend/out
+--numFeatures 20
+--numIterations 10
+--lambda 0.065
+
+mahout evaluateFactorization
+-i /movie_data_mining/recommend/dataset/probeSet/
+-o /movie_data_mining/recommend/out/rmse/
+--userFeatures /movie_data_mining/recommend/out/U/
+--itemFeatures /movie_data_mining/recommend/out/M/
+
+mahout recommendfactorized
+-i /movie_data_mining/recommend/out/userRatings/
+-o /movie_data_mining/recommend/recommendations/
+--userFeatures /movie_data_mining/recommend/out/U/
+--itemFeatures/movie_data_mining/recommend/out/M/
+--numRecommendations 6
+--maxRating 5

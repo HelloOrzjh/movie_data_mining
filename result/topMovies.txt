@@ -1,0 +1,40 @@
+movie_id:318, title:"Shawshank Redemption, cnt:81482, average:4.413576004516335
+movie_id:858, title:"Godfather, cnt:52498, average:4.324336165187245
+movie_id:50, title:"Usual Suspects, cnt:55366, average:4.284353213163313
+movie_id:1221, title:"Godfather: Part II, cnt:34188, average:4.2617585117585115
+movie_id:2019, title:Seven Samurai (Shichinin no samurai) (1954), cnt:13367, average:4.25476920775043
+movie_id:527, title:Schindler's List (1993), cnt:60411, average:4.247579083279535
+movie_id:1203, title:12 Angry Men (1957), cnt:16569, average:4.243014062405697
+movie_id:904, title:Rear Window (1954), cnt:20162, average:4.237947624243627
+movie_id:2959, title:Fight Club (1999), cnt:58773, average:4.228310618821568
+movie_id:1193, title:One Flew Over the Cuckoo's Nest (1975), cnt:36058, average:4.2186616007543405
+movie_id:750, title:Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964), cnt:26714, average:4.215804447106386
+movie_id:5618, title:Spirited Away (Sen to Chihiro no kamikakushi) (2001), cnt:22719, average:4.212267265284564
+movie_id:912, title:Casablanca (1942), cnt:26890, average:4.206563778356267
+movie_id:922, title:Sunset Blvd. (a.k.a. Sunset Boulevard) (1950), cnt:7368, average:4.20650108577633
+movie_id:1212, title:"Third Man, cnt:7194, average:4.201487350569919
+movie_id:44555, title:"Lives of Others, cnt:9177, average:4.200392285060477
+movie_id:1178, title:Paths of Glory (1957), cnt:4254, average:4.199341795956746
+movie_id:908, title:North by Northwest (1959), cnt:16850, average:4.196617210682493
+movie_id:3435, title:Double Indemnity (1944), cnt:5404, average:4.194022945965951
+movie_id:296, title:Pulp Fiction (1994), cnt:79672, average:4.188912039361382
+movie_id:318, title:Shawshank Redemption, The (1994), cnt:81482, average:4.413576004516335
+movie_id:858, title:Godfather, The (1972), cnt:52498, average:4.324336165187245
+movie_id:50, title:Usual Suspects, The (1995), cnt:55366, average:4.284353213163313
+movie_id:1221, title:Godfather: Part II, The (1974), cnt:34188, average:4.2617585117585115
+movie_id:2019, title:Seven Samurai (Shichinin no samurai) (1954), cnt:13367, average:4.25476920775043
+movie_id:527, title:Schindler's List (1993), cnt:60411, average:4.247579083279535
+movie_id:1203, title:12 Angry Men (1957), cnt:16569, average:4.243014062405697
+movie_id:904, title:Rear Window (1954), cnt:20162, average:4.237947624243627
+movie_id:2959, title:Fight Club (1999), cnt:58773, average:4.228310618821568
+movie_id:1193, title:One Flew Over the Cuckoo's Nest (1975), cnt:36058, average:4.2186616007543405
+movie_id:750, title:Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964), cnt:26714, average:4.215804447106386
+movie_id:5618, title:Spirited Away (Sen to Chihiro no kamikakushi) (2001), cnt:22719, average:4.212267265284564
+movie_id:912, title:Casablanca (1942), cnt:26890, average:4.206563778356267
+movie_id:922, title:Sunset Blvd. (a.k.a. Sunset Boulevard) (1950), cnt:7368, average:4.20650108577633
+movie_id:1212, title:Third Man, The (1949), cnt:7194, average:4.201487350569919
+movie_id:44555, title:Lives of Others, The (Das leben der Anderen) (2006), cnt:9177, average:4.200392285060477
+movie_id:1178, title:Paths of Glory (1957), cnt:4254, average:4.199341795956746
+movie_id:908, title:North by Northwest (1959), cnt:16850, average:4.196617210682493
+movie_id:3435, title:Double Indemnity (1944), cnt:5404, average:4.194022945965951
+movie_id:296, title:Pulp Fiction (1994), cnt:79671, average:4.188901858894704
