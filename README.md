@@ -1,2 +1,2 @@
 # movie_data_mining
-大数据导论 课设
+大数据导论课设，基于ml-25m数据集
